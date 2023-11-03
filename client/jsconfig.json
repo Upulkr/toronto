@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "/home",
+    "baseUrl": "src",
     "paths": {
       "@/*": ["src/*"]
     }
