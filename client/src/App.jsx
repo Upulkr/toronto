@@ -5,6 +5,7 @@ import routes from "@/routes";
 import "react-toastify/dist/ReactToastify.css";
 import Header from "./pages/Header";
 
+
 function App() {
   return (
     <>
@@ -19,7 +20,8 @@ function App() {
           ({ path, element }, key) =>
             element && <Route key={key} exact path={path} element={element} />
         )}
-        <Route path="*" element={<Navigate to="/Home" replace />} />
+        <Route path="*" element={<Navigate to="/home" replace />} />
+       
       </Routes>
     </>
   );
